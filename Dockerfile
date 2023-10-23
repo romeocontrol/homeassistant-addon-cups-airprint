@@ -22,6 +22,7 @@ RUN apt-get update \
         hplip \
         printer-driver-foo2zjs \
         printer-driver-splix \
+        printer-driver-brlaser \
         cups-pdf \
         gnupg2 \
         lsb-release \
