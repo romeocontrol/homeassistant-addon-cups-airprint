@@ -7,7 +7,7 @@ until [ -e /var/run/avahi-daemon/socket ]; do
 done
 
 bashio::log.info "Preparing directories"
-cp -v -R /etc/cups /data
+cp -v -R /etc/cups /config/cups
 rm -v -fR /etc/cups
 
 ln -v -s /config/cups /etc/cups
